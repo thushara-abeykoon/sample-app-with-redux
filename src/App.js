@@ -1,10 +1,9 @@
-import { useSelector } from "react-redux";
-import Counter from "./features/counter/Counter";
+import UploadImage from "./UploadImage";
 
 function App() {
   return (
     <div>
-      <Counter />
+      <UploadImage />
     </div>
   );
 }
